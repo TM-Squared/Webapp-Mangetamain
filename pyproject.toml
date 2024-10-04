@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "webapp-mangetamain"
+version = "0.1.0"
+description = "Analysis of a recipe dataset with the implementation of best programming practices"
+authors = ["TM-Squared <malaury.toussi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+streamlit = "^1.39.0"
+jupyter = "^1.1.1"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
